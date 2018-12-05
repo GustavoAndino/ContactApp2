@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  font-size:16px;
+  font-size: 100%;
+  font-size: 1em;
+}
+
+#section1{
+  text-align: center;
+     padding:100px 0px 10px;
+     margin: 60px 0px 60px;
+     color: white;
+     text-shadow: 4px 4px 4px black;
+}
+
+#section1 h2{
+  padding: 1em;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 1em 0px;
+}
+footer p{
+  padding: 1em;
+}
+
+.card h1{
+  padding: 0px 0px 1em 0px;
+}
+
+.card{
+
+  max-width: 500px;
+  margin: auto;
+  left: 30%;
+  border:0px;
+  padding:1em;
+  box-shadow: 2px 2px 3px 2px #000;
+background-image: url('../brandi-redd-414738-unsplash.jpg');
+  background-repeat: round;
+  text-align: center;
+    transform:translateY(15%);
+
+}
+
+body{
+  background-image: url('../panoramaFormulario.jpg');
+  background-repeat: round;
+}
+
+
+fieldset{
+  border-style: solid;
+  border-color: #999;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgba(255,255,255,0.7);
+}
+label{
+  display: block;
+  font-weight: bold;
+  margin-top:0.5em;
+}
+input{
+  font-size: 1em;
+  width:100%;
+  border-radius: 3px;
+  border-style: solid;
+  padding:0.25em 0.5em;
+  border-color:rgb(115, 65, 0);
+  outline: none;
+}
+legend{
+  text-shadow: 2px 2px 4px black;
+  color: white;
+}
+.right{
+  text-align: right;
+}
+button{
+  font-weight: bold;
+  font-size: 1em;
+  padding:0.5em 1em;
+  border: solid 1px rgb(84, 48, 0);
+  background-color: rgb(115, 65, 0);
+  border-radius: 33px;
+  color:white;
+  text-shadow: 1px 1px 2px #000;
+  transition: background-color 0.5s ease;
+
+}
+button:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+  border-color: red;
+}
