@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         contactos.add(new Contactos("Julio", "Andino",22232427,"Quezada2"));
         contactos.add(new Contactos("Natalie", "Coello",22232428,"Quezada3"));
         contactos.add(new Contactos("Julissa", "Zuniga",22232429,"Quezada4"));
+        contactos.add(new Contactos("Mabel", "Zuniga",22232430,"Quezada4"));
 
         ArrayList<String> nombreContatos = new ArrayList<>();
 
